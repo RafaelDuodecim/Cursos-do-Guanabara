@@ -1,0 +1,35 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #333;
+    color: white;
+    text-align: center;
+}
+
+header {
+    margin-top: 20px;
+}
+
+section {
+    background: white;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    width: 300px;
+    margin: 30px auto;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+}
+
+/* Centralizar imagem */
+#img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+/* Imagem redonda */
+.img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+}
