@@ -1,3 +1,5 @@
+
+/*
 function carregar() {
 
     var msg = document.getElementById('msg')
@@ -37,3 +39,23 @@ window.onload = function() {
     carregar()
     setInterval(carregar, 1000)
 }
+
+*/
+
+
+function verificar() {
+    var data = new Date()
+    var ano = data.getFullYear()
+    var fano = document.getElementById('txtano')
+    var res = document.querySelector('#res')
+    var nascimento = Number(fano.value)
+    if (fano.value.length == 0 || nascimento > ano || nascimento < 0) {
+        window.alert('[Erro] Verifique seus dados e tente novamente!')
+    } else {
+        var idade = ano - nascimento
+        res.innerHTML = `Idade calculada: ${idade} anos`
+        var fsex = document.getElementsByName('radsex')
+    } 
+}
+
+//13:36
