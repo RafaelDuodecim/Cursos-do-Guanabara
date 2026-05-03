@@ -33,3 +33,10 @@ section {
     border-radius: 50%;
     object-fit: cover;
 }
+
+.ano de nascimento {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+}
